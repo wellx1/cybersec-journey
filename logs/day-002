@@ -1,0 +1,73 @@
+# Daily Cyber Log — Day 2
+**Date:** 04/05/2026
+**Phase:** 1 — Foundations
+**Total study time:** ~2 hours
+
+---
+
+## 📚 Studied Today
+Linux fundamentals — first real contact with terminal commands
+and understanding the Linux identity and navigation system.
+
+---
+
+## ✅ Accomplished
+- Learned and practiced first set of Linux commands in Kali VM
+- Attempted OverTheWire Bandit wargame — assessed current level
+  and made the right call to build more base knowledge first
+
+---
+
+## 💡 Learned
+
+| Command | What it does |
+|---------|-------------|
+| `echo "text"` | Prints whatever text you put between quotes back to the terminal |
+| `whoami` | Returns your current username |
+| `id` | Shows full identity — user ID, group ID and system privileges |
+| `id -un` | Returns just the username, same output as whoami |
+| `pwd` | Shows your current location in the filesystem |
+
+**Key insight:** `whoami` and `id -un` return the same output
+but `id` is a much more powerful command with many variations.
+`whoami` exists only to print the username — `id` can show
+full privilege information which is critical during pentesting.
+
+---
+
+## 🧱 Struggles
+- OverTheWire Bandit felt too advanced at this stage —
+  missing base Linux knowledge to understand what was being asked
+- Made the right decision to step back and build foundations
+  first rather than forcing through something not yet ready for
+
+---
+
+## 🔬 Lab Practice
+- Practiced all commands above directly in Kali terminal
+- Tested `id` output to understand privilege information —
+  confirmed current user is in the `sudo` group meaning
+  admin privileges are available
+
+---
+
+## 🔐 Cybersecurity Connection
+`id` is one of the first commands run after getting access to
+a machine during a pentest or CTF. If the output shows
+`uid=0(root)` you have full control of the system. Understanding
+user privileges is fundamental to both attacking and defending
+systems — privilege escalation (moving from normal user to root)
+is one of the most common attack techniques you will study later.
+
+---
+
+## ➡️ Next Step
+Continue building Linux command knowledge before returning
+to Bandit. Focus on navigation, file manipulation and
+understanding the filesystem structure.
+
+## 🎯 Focus Score: 8/10
+Good session. Showed good self awareness by recognising
+Bandit was too advanced and stepping back rather than
+getting frustrated and quitting. That kind of judgment
+matters more than pushing through something blindly.
