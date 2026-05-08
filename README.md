@@ -24,7 +24,7 @@ Become employable in cybersecurity within 4 years while studying
 | May 2026 | Lab setup | Kali Linux + Windows VM + Docker on MacBook |
 
 ## My Lab Setup
-- MacBook Air M5 16GB RAM
+- MacBook Air M5
 - Kali Linux ARM (UTM)
 - Windows 11 ARM (UTM)
 - Docker Desktop
